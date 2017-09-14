@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.devifsc.estagiario.appeventos.IHC.SobreAplicativoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@android:color/black"
+                android:text="
+    Este aplicativo foi desenvolvido com recursos do Edital APROEX Nº 01/2017 da Pró-Reitoria de Extensão e Relação Externas. Participaram da equipe de desenvolvimento alunos do curso superior de Análise e Desenvolivimento de Sistemas do IFSC - Canoinhas."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Equipe de desenvolvimento:"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:text="
+    Fernanda Machado Belem\n
+    Gabriel Moreschi\n
+    João Paulo Zorek\n
+    Matheus Renan Araujo"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:text="Professor Orientador / Autor do Projeto:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:text="
+    Tamer Stefani Guimarães Cavalcante"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

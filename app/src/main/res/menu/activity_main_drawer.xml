@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Página Inicial" />
+        <item
+            android:id="@+id/nav_palestrantes"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Palestrantes" />
+        <item
+            android:id="@+id/nav_inscricoes"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Inscrições" />
+        <item
+            android:id="@+id/nav_programacao"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Programação" />
+        <item
+            android:id="@+id/nav_avalie_evento"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Avalie o Evento" />
+        <item android:title="Sobre">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_local"
+                        android:icon="@android:drawable/ic_dialog_map"
+                        android:title="Local" />
+                    <item
+                        android:id="@+id/nav_sobre_simposio"
+                        android:icon="@drawable/ic_info_black_24dp"
+                        android:title="Sobre o Simpósio" />
+                    <item
+                        android:id="@+id/nav_sobre_aplicativo"
+                        android:icon="@drawable/ic_info_black_24dp"
+                        android:title="Sobre o Aplicativo" />
+                </group>
+
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
