@@ -14,12 +14,6 @@ import com.devifsc.estagiario.appeventos.R;
  */
 public class SobreAplicativoFragment extends Fragment {
 
-
-    public SobreAplicativoFragment() {
-        // Required empty public constructor
-    }
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

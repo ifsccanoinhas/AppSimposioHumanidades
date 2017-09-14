@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity
         } else {
             super.onBackPressed();
         }
-
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
