@@ -47,12 +47,15 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onBackPressed() {
 
-        /*DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }*/
+        } else{
+            InicioFragment inicioFragment = new InicioFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.mainLayout, inicioFragment).commit();
+            getSupportActionBar().setTitle("II Simpósio de Humanidades");
+        }
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
