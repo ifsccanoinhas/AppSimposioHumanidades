@@ -15,6 +15,7 @@ import com.devifsc.estagiario.appeventos.IHC.AvalieEventoFragment;
 import com.devifsc.estagiario.appeventos.IHC.InicioFragment;
 import com.devifsc.estagiario.appeventos.IHC.InscricoesFragment;
 import com.devifsc.estagiario.appeventos.IHC.LocalFragment;
+import com.devifsc.estagiario.appeventos.IHC.PalestrantesFragment;
 import com.devifsc.estagiario.appeventos.IHC.ProgramacaoFragment;
 import com.devifsc.estagiario.appeventos.IHC.SobreAplicativoFragment;
 import com.devifsc.estagiario.appeventos.IHC.SobreSimposioFragment;
@@ -46,12 +47,12 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onBackPressed() {
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        /*DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
-        }
+        }*/
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -89,6 +90,10 @@ public class MainActivity extends AppCompatActivity
             barra = "II Simpósio de Humanidades";
 
         } else if (id == R.id.nav_palestrantes) {
+            PalestrantesFragment palestrantesFragment = new PalestrantesFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.mainLayout, palestrantesFragment).commit();
+            barra = "Palestrantes";
 
         } else if (id == R.id.nav_inscricoes) {
             InscricoesFragment inscricoesFragment = new InscricoesFragment();

@@ -6,8 +6,9 @@
     tools:context="com.devifsc.estagiario.appeventos.IHC.LocalFragment">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:baselineAligned="false"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="parent"

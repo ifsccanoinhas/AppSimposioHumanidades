@@ -33,7 +33,7 @@ public class Dia28Fragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_dia28, container, false);
 
-        expListView = (ExpandableListView) v.findViewById(R.id.elvDia29);
+        expListView = (ExpandableListView) v.findViewById(R.id.elvDia28);
         prepareListData();
         listAdapter = new ExpandableListAdapter(getActivity(), listDataHeader, listDataChild);
         expListView.setAdapter(listAdapter);

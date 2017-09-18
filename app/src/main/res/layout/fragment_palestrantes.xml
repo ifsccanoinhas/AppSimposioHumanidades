@@ -3,11 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.devifsc.estagiario.appeventos.IHC.Dia28Fragment">
+    tools:context="com.devifsc.estagiario.appeventos.IHC.PalestrantesFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ExpandableListView
-        android:id="@+id/elvDia28"
+        android:id="@+id/elvpalestrantes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="0dp"
@@ -15,7 +15,7 @@
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -26,4 +26,3 @@
         tools:layout_constraintTop_creator="1" />
 
 </FrameLayout>
-
