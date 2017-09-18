@@ -23,11 +23,6 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class LocalFragment extends Fragment implements OnMapReadyCallback {
 
     GoogleMap map;
-    public LocalFragment() {
-        // Required empty public constructor
-    }
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
