@@ -105,6 +105,7 @@ public class MainActivity extends AppCompatActivity
             barra = "Inscrições";
 
         } else if (id == R.id.nav_programacao ) {
+
             ProgramacaoFragment programacaoFragment = new ProgramacaoFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.mainLayout, programacaoFragment).commit();

@@ -30,6 +30,7 @@ public class ProgramacaoFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_programacao, container, false);
 
         View contenedor=(View)container.getParent();
+
         appBar = (AppBarLayout)contenedor.findViewById(R.id.appbar);
         tabs = new TabLayout(getActivity());
         tabs.setTabTextColors(Color.parseColor("#c0edc0"), Color.parseColor("#FFFFFF"));
